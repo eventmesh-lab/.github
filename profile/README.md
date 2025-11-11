@@ -26,35 +26,6 @@ La solución integrará **procesos asíncronos** mediante colas de mensajería, 
 - Aplicar principios de **DDD** y **Arquitectura Hexagonal** en cada microservicio.  
 - Proveer un entorno de despliegue **independiente por módulo** y con comunicación desacoplada.
 
----
-
-## 🧠 Actores Principales
-
-- **Usuario Final:** realiza reservas, pagos y consulta su historial.  
-- **Organizador:** crea y administra eventos, controla aforos y disponibilidad.  
-- **Administrador:** supervisa la operación global del sistema.  
-- **Sistema Externo de Pagos:** pasarela simulada para procesar pagos.  
-- **Proveedores Externos:** transporte, catering y merchandising integrados vía RabbitMQ.
-
----
-
-## ⚙️ Tecnologías y Estándares
-
-| Capa / Componente | Tecnología | Descripción |
-|--------------------|-------------|--------------|
-| Backend | .NET 8, MediatR | Implementación modular orientada a dominios |
-| Mensajería | RabbitMQ | Procesamiento asíncrono de eventos |
-| Jobs | Hangfire | Tareas programadas y background jobs |
-| Gateway | YARP | Enrutamiento y balanceo de peticiones |
-| Seguridad | Keycloak | Gestión de identidad y autorización |
-| Persistencia | PostgreSQL, MongoDB | Bases de datos relacional y documental |
-| Frontend | React | Aplicación web dinámica |
-| Notificaciones | SignalR/WebSockets | Comunicación en tiempo real |
-| Almacenamiento | Firebase Storage | Archivos multimedia y comprobantes |
-| Despliegue | Docker / CI-CD | Integración continua y contenedores |
-
----
-
 ## 🧩 Descripción General del Sistema
 
 La plataforma permitirá a los usuarios:
