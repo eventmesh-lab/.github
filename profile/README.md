@@ -3,7 +3,7 @@
 > **Proyecto DS 2025-02** | Facultad de Ingeniería, UCAB  
 > Desarrollo del Software | Prof. Bismarck Ponce | Sep 2025 - Ene 2026
 
-[![Documentación](https://img.shields.io/badge/docs-disponible-blue)](./docs)
+[![Documentación](https://img.shields.io/badge/docs-disponible-blue)](https://eventmesh-lab.github.io/org-docs/)
 [![Estado](https://img.shields.io/badge/estado-en%20desarrollo-yellow)]()
 
 ---
@@ -84,7 +84,7 @@ Plataforma web distribuida para gestión integral de eventos (conciertos, confer
 
 ## 📚 Documentación
 
-La documentación técnica completa se encuentra en el repositorio [`org-docs`](https://eventmesh-lab.github.io/org-docs/):
+La documentación técnica completa se encuentra en el repositorio [`org-docs`](https://github.com/eventmesh-lab/org-docs):
 
 - **Arquitectura:** Decisiones técnicas y patrones de diseño
 - **API Reference:** Especificación de endpoints por servicio
