@@ -44,7 +44,7 @@ Plataforma web distribuida para gestión integral de eventos (conciertos, confer
 | Servicio | Descripción | Estado |
 |----------|-------------|--------|
 | [frontend-app](https://github.com/eventmesh-lab/eventmesh-frontend) | Aplicación React (usuarios/admin) | ✅ Activo |
-| [api-gateway](https://github.com/eventmesh-lab/svc_yarn_api-gateway) | Enrutamiento central (YARP) |  🟡 En proceso|
+| [api-gateway](https://github.com/eventmesh-lab/svc_yarp_api-gateway) | Enrutamiento central (YARP) |  🟡 En proceso|
 | auth-service | Autenticación con Keycloak | 🔜 Próximo |
 | event-service | Gestión de eventos y asientos | 🔜 Próximo |
 | booking-service | Reservas y expiración automática | 🔜 Próximo |
